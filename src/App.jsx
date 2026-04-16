@@ -23,7 +23,7 @@ function App() {
           <p className="text-base/loose mb-6 text-justify opacity-50">I am a student at the Sepuluh Nopember Institute of Technology with a strong interest in construction engineering, particularly in water resources infrastructure. I have mastered the basics of engineering drawing, cost planning calculations, and project implementation in the field. With my systematic analytical and problem-solving skills, I am able to work in a structured manner and make effective contributions. I am known as a disciplined, adaptable, and highly motivated individual who strives for continuous development.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href={`${import.meta.env.BASE_URL}CV_Agenda Bima Prabowo Putra.pdf`}
+              href="/Web-Portofolio-Bima/CV_Agenda Bima Prabowo Putra.pdf"
               download
               className="bg-zinc-800 p-4 rounded-2xl hover:bg-zinc-700 text-white"
             >
@@ -171,7 +171,7 @@ function App() {
           {/* Experience 3 */}
           <div>
             <h3 className="font-semibold text-white">
-              Internship Irrigation Network Improvement Project for Bendo Irrigation Area (Phase III) - BBWS Bengawan Solo 
+              Internship Irrigation Network Improvement Project for Bendo Irrigation Area (Phase III) - BBWS Bengawan Solo
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
               Ponorogo, Indonesia · Juli 2025 – Desember 2025
@@ -400,7 +400,7 @@ function App() {
 
                 <span className="font-semibold">Email</span>
                 <span className="break-all">
-                   agendabimapp@gmail.com
+                  agendabimapp@gmail.com
                 </span>
 
                 <span className="font-semibold">Phone</span>
