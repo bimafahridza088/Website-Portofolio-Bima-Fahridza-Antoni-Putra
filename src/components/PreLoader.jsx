@@ -14,7 +14,7 @@ const Preloader = () => {
     if (!loading) return null;
 
     return (
-       <div className="fixed inset-0 flex items-center justify-center bg-zinc-600 z-[9999]">
+       <div className="fixed inset-0 flex items-center justify-center bg-zinc-500 z-[9999]">
             <div role="status">
                 <svg
                     aria-hidden="true"
