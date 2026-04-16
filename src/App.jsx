@@ -34,8 +34,8 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="w-full max-w-[650px] md:ml-auto">
-          <div className="relative rounded-2xl overflow-hidden group aspect-[4/5]">
+        <div className="w-full max-w-[500px] md:ml-auto">
+          <div className="relative rounded-2xl aspect-square overflow-hidden group">
 
             <img
               src={DataImage.HeroImage}
@@ -171,7 +171,7 @@ function App() {
           {/* Experience 3 */}
           <div>
             <h3 className="font-semibold text-white">
-              Internship Irrigation Network Improvement Project for Bendo Irrigation Area (Phase III) - BBWS Bengawan Solo
+              Internship Irrigation Network Improvement Project for Bendo Irrigation Area (Phase III) - BBWS Bengawan Solo 
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
               Ponorogo, Indonesia · Juli 2025 – Desember 2025
@@ -400,7 +400,7 @@ function App() {
 
                 <span className="font-semibold">Email</span>
                 <span className="break-all">
-                  agendabimapp@gmail.com
+                   agendabimapp@gmail.com
                 </span>
 
                 <span className="font-semibold">Phone</span>
