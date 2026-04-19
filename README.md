@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -24,3 +25,7 @@ Portofolio Web
 # Web-Portofolio-Bima
 Portofolio web
 >>>>>>> 1c7776a612353937a2d1d997a0a24579cd719da9
+=======
+# Website-Portofolio-Julian-Ady-Al-Fassah
+Web Portofolio
+>>>>>>> 32d1ab076fc4f311f7bed6f8ef749cd617e0f728
