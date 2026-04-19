@@ -24,13 +24,13 @@ import Proyek15 from "/assets/proyek/proyek15.png";
 import Proyek16 from "/assets/proyek/proyek16.png";
 import Proyek17 from "/assets/proyek/proyek17.jpg";
 import Proyek18 from "/assets/proyek/proyek18.jpg";
-import Proyek19 from "/assets/proyek/proyekbali.jpeg";
-import Proyek20 from "/assets/proyek/proyekbali2.jpeg";
+import Proyek19 from "/assets/proyek/proyekmadura.jpeg";
+import Proyek20 from "/assets/proyek/proyekmadura2.jpeg";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: [Proyek4, Proyek20, Proyek19, Proyek1, Proyek2, Proyek3],
+    gambar: [Proyek4, Proyek19, Proyek1, Proyek2, Proyek3],
     nama: "Topographic Surveyor - Nusa Dua Bali PLN Main Substation",
     desk: [
       "Conducted comprehensive topographic surveys using Total Station for substation site preparation",
@@ -38,7 +38,7 @@ export const listProyek = [
       "Created accurate situation maps for engineering decisions",
     ],
      tools: ["Total Station", "Excel", "Civil 3D", "Autocad"],
-    category: "survey",
+    category: "survey and design",
     dad: "200",
   },
   {
@@ -51,12 +51,12 @@ export const listProyek = [
       "Developed detailed situation maps for site planning and construction",
     ],
     tools: ["Total Station", "Excel", "Civil 3D", "Autocad"],
-    category: "survey",
+    category: "survey and design",
     dad: "300",
   },
   {
     id: 3,
-    gambar: [Proyek8, Proyek9, Proyek10, Proyek11],
+    gambar: [Proyek20, Proyek11, Proyek9, Proyek8, Proyek10],
     nama: "Design and Estimator - Survey Investigation, and Design (SID) for Irrigation Madura Sampang & Bangkalan, Indonesia - 2025",
     desk: [
       "Performed field surveys and stakeholder interviews to gather critical technical data.",
@@ -64,7 +64,7 @@ export const listProyek = [
       "Prepared detailed cost estimations (RAB) for irrigation development",
     ],
     tools: ["Google Earth Engine", "Excel", "Autocad"],
-    category: "design",
+    category: "survey and design",
     dad: "400",
   },
   {
@@ -93,7 +93,7 @@ export const listProyek = [
       "Civil 3D",
       "Autocad",
     ],
-    category: "design",
+    category: "survey and design",
     dad: "700",
   },
   {
@@ -110,7 +110,7 @@ export const listProyek = [
       "Civil 3D",
       "Autocad",
     ],
-    category: "design",
+    category: "survey and design",
     dad: "700",
   },
 ];
