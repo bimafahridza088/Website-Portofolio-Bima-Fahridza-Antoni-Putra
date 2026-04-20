@@ -75,7 +75,7 @@ function App() {
             <h2 className="text-xl text-black text-center font-semibold mb-4">Profile</h2>
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
             <p className="text-base/loose text-black font-extrabold mb-6 text-center opacity-100 leading-relaxed">
-              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.43 / 4.00
+              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.08 / 4.00
             </p>
             <p className="text-base/loose mb6 text-center text-white leading-relaxed">
               I am a Civil Engineering student at Institut Teknologi Sepuluh Nopember with a strong interest in construction and infrastructure. I have academic experience in technical planning, data analysis, and project documentation, supported by my proficiency in AutoCAD and Microsoft Excel. I am a detail-oriented and disciplined individual with strong analytical skills. I am continuously improving my communication and public speaking abilities, and I have a strong willingness to learn. I am also capable of working effectively in a team to achieve common goals. I am eager to keep growing and to contribute optimally in a professional work environment.
