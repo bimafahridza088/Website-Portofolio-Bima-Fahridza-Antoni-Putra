@@ -21,21 +21,21 @@ function App() {
       {/* Hero */}
       <div className="hero grid grid-cols-1 md:grid-cols-2 pt-10 items-center gap-6 lg:gap-10">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
-          <div className="flex items-center gap-3mb6 bg-white/20 text-white w-fit p-6 rounded-2xl">
+          <div className="flex items-center gap-3mb6 bg-[#01498c] text-black w-fit p-6 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-            <h1 className="p-2">“Take The Risk or Lost the Chance”</h1>
+            <h1 className="p-2">“Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.- Roy T. Bennett ”</h1>
           </div>
-          <h1 className="text-5xl/tight text-white font-bold mb-6">Hi, I am Julian Ady Al Fassah</h1>
-          <p className="text-base/loose text-white mb-6 text-justify opacity-100">Engineering student at the Sepuluh Nopember Institute of Technology (ITS), specializing in water infrastructure and construction management. Expert in integrating computational analysis with technical drawing to produce accurate engineering designs. Proven track record of fast adaptation to new work environments and a high motivation for technical competency development. Focused on work efficiency, discipline, innovation, and systematic project execution.</p>
+          <h1 className="text-5xl/tight text-black font-bold mb-6">Hi, I am Bima Fahridza Antoni Putra</h1>
+          <p className="text-base/loose text-black mb-6 text-justify opacity-100">An engineering student at Institut Teknologi Sepuluh Nopember (ITS) with a strong interest in water infrastructure and construction management. Skilled in integrating computational analysis with technical drawing to produce precise and reliable designs. Able to adapt quickly to new work environments and highly motivated to continuously develop technical competencies. Committed to efficiency, discipline, innovation, and structured, systematic project execution.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href={`${import.meta.env.BASE_URL}CV ATS_Julian Ady Al Fassah.pdf`}
+              href={`${import.meta.env.BASE_URL}CV-BIMA FAHRIDZA.pdf`}
               download
-              className="bg-[#0759a6] p-4 rounded-2xl hover:bg-blue-500 text-white"
+              className="bg-black p-4 rounded-2xl hover:bg-zinc-800 text-white"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
-            <a href="#proyek" className="bg-white/20 p-4 rounded-2xl hover:bg-white/50 text-white">
+            <a href="#proyek" className="bg-[#01498c] p-4 rounded-2xl hover:bg-[#025aad] text-white">
               Project <i className="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
@@ -61,8 +61,8 @@ function App() {
 
         {/* Header */}
         <div className="text-center mb-12 " data-aos="fade-up" data-aos-duration="1000" data-aos-one="true">
-          <h1 className="text-4xl text-white font-bold mb-2">About</h1>
-          <p className="text-white ">
+          <h1 className="text-4xl text-black font-bold mb-2">About</h1>
+          <p className="text-">
             A concise overview of my background, technical focus, and professional direction.
           </p>
         </div>
@@ -71,14 +71,14 @@ function App() {
         <div className="grid md:grid-cols-2 gap-8" data-aos="fade-up" data-aos-duration="1000" data-aos-one="true"   >
 
           {/* LEFT CARD */}
-          <div className="w-full bg-white/20 p-8 rounded-2xl shadow-sm flex flex-col">
-            <h2 className="text-xl text-white text-center font-semibold mb-4">Profile</h2>
+          <div className="w-full bg-[#01498c] p-8 rounded-2xl shadow-sm flex flex-col">
+            <h2 className="text-xl text-black text-center font-semibold mb-4">Profile</h2>
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
-            <p className="text-base/loose text-white font-extrabold mb-6 text-center opacity-100 leading-relaxed">
-              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.07 / 4.00
+            <p className="text-base/loose text-black font-extrabold mb-6 text-center opacity-100 leading-relaxed">
+              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.43 / 4.00
             </p>
             <p className="text-base/loose mb6 text-center text-white leading-relaxed">
-              Engineering student at ITS specializing in water infrastructure and construction management, with strong skills in integrating computational analysis and technical drawing to produce accurate designs. Known for quick adaptability, high motivation to develop technical competence, and a disciplined, efficient, and systematic approach to project execution, with a focus on innovation.
+              I am a Civil Engineering student at Institut Teknologi Sepuluh Nopember with a strong interest in construction and infrastructure. I have academic experience in technical planning, data analysis, and project documentation, supported by my proficiency in AutoCAD and Microsoft Excel. I am a detail-oriented and disciplined individual with strong analytical skills. I am continuously improving my communication and public speaking abilities, and I have a strong willingness to learn. I am also capable of working effectively in a team to achieve common goals. I am eager to keep growing and to contribute optimally in a professional work environment.
             </p>
             <div className="mt-auto flex flex-col sm:flex-row sm:items-center justify-between gap-6 md:gap-8">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
@@ -86,14 +86,14 @@ function App() {
 
                 <div>
                   <h1 className="text-2xl sm:text-4xl mb-1 text-white">
-                    5 <span className="text-[#0759a6] ">+</span>
+                    5 <span className="text-black ">+</span>
                   </h1>
                   <p className="text-white">Project completed</p>
                 </div>
 
                 <div>
                   <h1 className="text-2xl sm:text-4xl mb-1 text-white">
-                    3 <span className="text-[#0759a6] ">+</span>
+                    3 <span className="text-black">+</span>
                   </h1>
                   <p className="text-white">Years Experience</p>
                 </div>
@@ -103,29 +103,29 @@ function App() {
           </div>
 
           {/* RIGHT CARD */}
-          <div className="bg-white/20 p-8 rounded-2xl shadow-sm">
-            <h2 className="text-xl text-white  text-center font-semibold mb-4">Personal Information</h2>
+          <div className="bg-[#01498c] p-8 rounded-2xl shadow-sm">
+            <h2 className="text-xl text-black  text-center font-semibold mb-4">Personal Information</h2>
 
             <div className="space-y-3 text-base/loose mb-6 text-justify">
 
               <div className="flex flex-col text-center text-white gap-1">
-                <span className="font-medium">Name</span>
-                <span>Julian Ady Al Fassah</span>
+                <span className="font-medium text-black">Name</span>
+                <span>Bima Fahridza Antoni Putra</span>
               </div>
 
               <div className="flex flex-col text-center text-white gap-1">
-                <span className="font-medium">Email</span>
-                <span>agendabimapp@gmail.com</span>
+                <span className="font-medium text-black">Email</span>
+                <span>b.fahridzaO88@gmail.com</span>
               </div>
 
               <div className="flex flex-col text-center text-white gap-1">
-                <span className="font-medium">Phone</span>
-                <span>089507468578</span>
+                <span className="font-medium text-black">Phone</span>
+                <span>0895041742ó9</span>
               </div>
 
               <div className="flex flex-col text-center text-white gap-1">
-                <span className="font-medium">Location</span>
-                <span>Tulungagung, Jawa Timur, Indonesia</span>
+                <span className="font-medium text-black">Location</span>
+                <span>Ponorogo, Jawa Timur, Indonesia</span>
               </div>
             </div>
           </div>
@@ -133,145 +133,101 @@ function App() {
       </div>
 
       {/* CARD 3 - PERSONAL EXPERIENCE */}
-      <div className="bg-white/20 p-8 rounded-2xl shadow-sm md:col-span-2" data-aos="fade-up" data-aos-duration="1000" data-aos-one="true">
-        <h2 className="text-xl text-white font-semibold mb-4">Professional Experience</h2>
+      <div className="bg-[#01498c] p-8 rounded-2xl shadow-sm md:col-span-2" data-aos="fade-up" data-aos-duration="1000" data-aos-one="true">
+        <h2 className="text-xl text-black font-semibold mb-4">Professional Experience</h2>
 
         <div className="space-y-6 text-base/loose">
 
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
           {/* Experience 1 */}
           <div>
-            <h3 className="font-semibold text-white">
-              Trainer – Bricklaying Competition (LKS SMK)
+            <h3 className="font-semibold text-black">
+              Intern – Assistant Drafter
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
-              SMKN 3 Boyolangu, Tulungagung · 2022 – 2023
+              CV. Parama Multi Consultant, Madiun, Indonesia
+              January 2021 – July 2021
             </p>
 
             <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Mentoring for Provincial and National Level Vocational Skills Competition</li>
-              <li>Technical Training in Masonry and Bricklaying Excellence</li>
-              <li>Establishing a fast and efficient workflow</li>
+              <li>Assisted drafters in producing residential building drawings (2D & 3D)</li>
+              <li>Conducted planning surveys for Gully Plug and Drop Structure projects</li>
+              <li>Contributed to the PDD team (Publication, Design, and Documentation)</li>
             </ul>
           </div>
 
 
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
           {/* Experience 1 */}
           <div>
-            <h3 className="font-semibold text-white">
-              Staff of Entrepreneurship Division – HMDS ITS
+            <h3 className="font-semibold text-black">
+              Operational Staff – UKM PSHT ITS
             </h3>
             <p className="text-white opacity-100 text-sm mb-2">
-              Surabaya, Indonesia · 2024 – 2025
+              Surabaya, Indonesia · February 2023 – March 2024
             </p>
 
             <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Business Process Planning and Execution </li>
-              <li>Organizational Management & Analytical Thinking </li>
-              <li>Strategic Support for Departmental Programs</li>
+              <li>Supported daily operational activities and regular training programs</li>
+              <li>Managed logistics and equipment for organizational events</li>
+              <li>Coordinated with members to ensure smooth execution of internal activities</li>
             </ul>
           </div>
 
 
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
           {/* Experience 3 */}
           <div>
-            <h3 className="font-semibold text-white">
-              Trainer – Bricklaying Competition (LKS SMK)
+            <h3 className="font-semibold text-black">
+              Staff of Logistics Division – KKN ITS Wengker
+              2024
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
-              SMKN 3 Boyolangu, Tulungagung · 2022 – 2023
+              Ponorogo · 2024
             </p>
 
             <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Mentoring for Provincial and National Level Vocational Skills Competition</li>
-              <li>Technical Training in Masonry and Bricklaying Excellence</li>
-              <li>Establishing a fast and efficient workflow</li>
+              <li>Managed logistics distribution and ensured resource availability during the program</li>
+              <li>Planned material requirements and logistics budgeting</li>
+              <li>Supported field operations to maintain efficiency and effectiveness</li>
             </ul>
           </div>
 
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
           <div>
-            <h3 className="font-semibold text-white">
-              Staff of Publication and Documentation – Ini Lho ITS! Forda Tulungagung
+            <h3 className="font-semibold text-black">
+              Head of Media and Information Division (Kadiv Medfo) – UKM PSHT ITS
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
-              Tulungagung, Indonesia · 2023
+              Surabaya, Indonesia · April 2024 – May 2025
             </p>
 
             <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Digital Content Creation & Media Documentation </li>
-              <li>Public Relations & Information Distribution </li>
-              <li>Strategic Branding for Regional Outreach Programs </li>
+              <li>Led media and publication strategies for the organization</li>
+              <li>Supervised digital content creation (design, documentation, and publication)</li>
+              <li>Improved organizational branding and engagement through social media</li>
+              <li>Coordinated team activities in media production and information distribution</li>
             </ul>
           </div>
 
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
           <div>
-            <h3 className="font-semibold text-white">
-              Head of Liaison Officer Division – Dvillage 13th Edition
+            <h3 className="font-semibold text-black">
+              Civil Engineering Intern (Irrigation Network Rehabilitation – DI Gung)
             </h3>
             <p className="text-sm text-white opacity-100 mb-2">
-              Surabaya, Indonesia · 2024
+              PT. Minarta Dutahutama, Tegal, Indonesia
+              July 2025 – December 2025
             </p>
 
             <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Division Leadership & Stakeholder Management  </li>
-              <li>Strategic Communication & Coordination for National Events  </li>
-              <li>Operational Execution & Team Supervision </li>
+              <li>Prepared and revised technical drawings using AutoCAD, Civil 3D, and SketchUp</li>
+              <li>Performed on-site quality control (sandcone test and concrete compressive strength test)</li>
+              <li>Conducted quantity take-off and material estimation</li>
             </ul>
           </div>
 
-          <hr className="border-[#0759a6]" />
-          <div>
-            <h3 className="font-semibold text-white">
-              Facade Design and Build Staff – National KJI KBGI Competition
-            </h3>
-            <p className="text-sm text-white opacity-100 mb-2">
-              ITS Team, Indonesia · 2024
-            </p>
-
-            <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Structural Facade Design for National Bridge and Building Competition  </li>
-              <li>Integration of Architectural Aesthetics with Engineering Stability  </li>
-              <li>Material Selection and Construction Execution Planning </li>
-            </ul>
-          </div>
-
-          <hr className="border-[#0759a6]" />
-          <div>
-            <h3 className="font-semibold text-white">
-              Internship – PT. Samudra Agung Reality
-            </h3>
-            <p className="text-sm text-white opacity-100 mb-2">
-              Tulungagung, Indonesia · 2024
-            </p>
-
-            <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>JLS Construction Lot 1A Project Execution  </li>
-              <li>Topographic Survey & Field Data Collection  </li>
-              <li>Construction Documentation & Progress Monitoring </li>
-            </ul>
-          </div>
-
-          <hr className="border-[#0759a6]" />
-          <div>
-            <h3 className="font-semibold text-white">
-              Internship – PT. Globetek Glory Konsultant
-            </h3>
-            <p className="text-sm text-white opacity-100 mb-2">
-              Ponorogo and Madiun, Indonesia · Januari 2025 – Present
-            </p>
-
-            <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Analysis and calculation of the planting index (IP) DI Asin Bawah </li>
-              <li>Technical Planning & Hydraulic Infrastructure Analysis  </li>
-              <li>Drafter : Handled AS Build Drawing </li>
-            </ul>
-          </div>
-
-          <hr className="border-[#0759a6]" />
+          <hr className="border-white" />
         </div>
       </div>
       {/* tentang */}
@@ -279,7 +235,7 @@ function App() {
       {/* project */}
       <div className="proye mt-32 py-10" id="proyek">
         <h1
-          className="text-center text-white text-4xl font-bold mb-2"
+          className="text-center text-black text-4xl font-bold mb-2"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -288,7 +244,7 @@ function App() {
         </h1>
 
         <p
-          className="text-base/loose text-white text-center opacity-50"
+          className="text-base/loose text-black text-center opacity-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -308,8 +264,8 @@ function App() {
               key={cat}
               onClick={() => setCategory(cat)}
               className={`px-4 py-2 rounded-full capitalize transition ${category === cat
-                ? "bg-[#0759a6] text-white"
-                : "bg-white text-black hover:bg-gray-300"
+                ? "bg-[#0759a6]  text-white"
+                : "bg-black text-white hover:bg-gray-300"
                 }`}
             >
               {cat}
@@ -319,7 +275,7 @@ function App() {
 
         {/* ✅ PROJECT GRID */}
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4" >
-             {listProyek
+          {listProyek
             .filter((proyek) =>
               category === "all" ? true : proyek.category === category
             )
@@ -335,12 +291,12 @@ function App() {
 
           {/* Header (TANPA AOS biar tidak trigger duluan) */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl text-white font-bold mb-2" data-aos="fade-up"
+            <h1 className="text-4xl text-black font-bold mb-2" data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1500" data-aos-one="true">
               Skills
             </h1>
-            <p className="text-white" data-aos="fade-up"
+            <p className="text-black" data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1500" data-aos-one="true">
               Competencies that support reliable performance in engineering and construction environments.
@@ -352,13 +308,13 @@ function App() {
 
             {/* TECHNICAL */}
             <div
-              className="bg-white/10 p-8 rounded-2xl"
+              className="bg-[#01498c] p-8 rounded-2xl"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1500"
               data-aos-easing="ease-out-cubic" data-aos-one="true"
             >
-              <h2 className="text-xl text-white font-semibold mb-6">Technical skills</h2>
+              <h2 className="text-xl text-black font-semibold mb-6">Technical skills</h2>
 
               <div className="flex flex-wrap gap-3">
                 {skillsData.technical.map((skill, index) => (
@@ -366,8 +322,8 @@ function App() {
                     key={index}
                     data-aos="zoom-in"
                     data-aos-delay={index * 150}
-                    className="px-4 py-2 bg-white rounded-full text-sm font-medium 
-                       hover:bg-[#0759a6] transition"
+                    className="px-4 py-2 bg-black text-white rounded-full text-sm font-medium 
+                       hover:bg-white hover:text-black transition"
                   >
                     {skill}
                   </span>
@@ -377,13 +333,13 @@ function App() {
 
             {/* PROFESSIONAL */}
             <div
-              className="bg-white/10 p-8 rounded-2xl"
+              className="bg-[#01498c] p-8 rounded-2xl"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1500"
               data-aos-easing="ease-out-cubic" data-aos-one="true"
             >
-              <h2 className="text-xl text-white font-semibold mb-6">Professional skills</h2>
+              <h2 className="text-xl text-black font-semibold mb-6">Professional skills</h2>
 
               <div className="flex flex-wrap gap-3">
                 {skillsData.professional.map((skill, index) => (
@@ -392,8 +348,8 @@ function App() {
                     data-aos="zoom-in"
                     data-aos-delay={index * 150}
                     data-aos-one="true"
-                    className="px-4 py-2 bg-white rounded-full text-sm font-medium 
-                       hover:bg-[#0759a6] transition"
+                    className="px-4 py-2 bg-black text-white rounded-full text-sm font-medium 
+                       hover:bg-white hover:text-black transition"
                   >
                     {skill}
                   </span>
@@ -410,8 +366,8 @@ function App() {
         <div className="kontak mt-48 px-4" id="kontak">
 
           {/* Header (TANPA AOS) */}
-          <h1 className="text-4xl mb-2 font-bold text-center text-white" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" data-aos-one="true">Contact</h1>
-          <p className="text-base/loose text-center text-white mb-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" data-aos-one="true">
+          <h1 className="text-4xl mb-2 font-bold text-center text-black" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" data-aos-one="true">Contact</h1>
+          <p className="text-base/loose text-center text-black mb-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" data-aos-one="true">
             Open to collaboration, internships, freelance drafting work, and project-based engineering support.
           </p>
 
@@ -420,7 +376,7 @@ function App() {
 
             {/* LEFT - CONTACT INFO */}
             <div
-              className="bg-white/20 p-8 rounded-2xl h-full flex flex-col justify-between"
+              className="bg-[#0759a6]  p-8 rounded-2xl h-full flex flex-col justify-between"
               data-aos="fade-up"
               data-aos-delay="1500"
               data-aos-duration="2200"
@@ -428,7 +384,7 @@ function App() {
               data-aos-one="true"
             >
               <div>
-                <h2 className="text-xl text-white font-semibold mb-6">
+                <h2 className="text-xl text-black font-semibold mb-6">
                   Contact Information
                 </h2>
 
@@ -436,38 +392,38 @@ function App() {
 
                   <span className="font-semibold">Email</span>
                   <span className="break-all">
-                    julianady746@gmail.com
+                    b.fahridzaO88@gmail.com
                   </span>
 
                   <span className="font-semibold">Phone</span>
                   <span className="break-all">
-                    089507468578
+                    0895041742ó9
                   </span>
 
                   <span className="font-semibold">Location</span>
                   <span className=" break-all">
-                    Tulungagung, Indonesia
+                    Ponorogo, Indonesia
                   </span>
 
                   <span className="font-semibold">Instagram</span>
                   <span className="break-all">
-                    instagram.com/julianady7819
+                    instagram.com/b.fhrdz_
                   </span>
 
                 </div>
               </div>
 
-              <p className="text-xs text-white mt-6">
+              <p className="text-xs text-black mt-6">
                 Feel free to reach out anytime.
               </p>
             </div>
 
             {/* RIGHT - FORM */}
             <form
-              action="https://formsubmit.co/julianady746@gmail.com"
+              action="https://formsubmit.co/b.fahridzaO88@gmail.com"
               method="POST"
               autoComplete="off"
-              className="bg-white/20 p-8 rounded-2xl"
+              className="bg-[#0759a6]  p-8 rounded-2xl"
               data-aos="fade-up"
               data-aos-delay="1500"
               data-aos-duration="2200"
@@ -479,7 +435,7 @@ function App() {
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_next" value="http://localhost:5173/" />
 
-              <h2 className="text-xl text-white font-semibold mb-4">Send Message</h2>
+              <h2 className="text-xl text-black font-semibold mb-4">Send Message</h2>
 
               <div className="flex flex-col text-black gap-5">
 
@@ -518,7 +474,7 @@ function App() {
 
                 <button
                   type="submit"
-                  className="w-full cursor-pointer p-3 rounded-md bg-[#0759a6] hover:bg-[#106cc2] transition"
+                  className="w-full text-white cursor-pointer p-3 rounded-md bg-black hover:bg-zinc-800 transition"
                 >
                   Send Message
                 </button>

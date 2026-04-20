@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="navbar py-7 flex items-center justify-between">
         <div className="logo">
-            <h1 className="text-3xl font-bold bg-black text-white p-1 md:bg-transparent md:text-white">
+            <h1 className="text-3xl font-bold bg-black text-white p-1 md:bg-transparent md:text-black">
                 Portofolio 
             </h1>
         </div>
@@ -34,24 +34,24 @@ const Navbar = () => {
         md:transform-none
         z-50
         transition-all duration-300
-        bg-white/30 md:bg-[#0759a6] backdrop-blur-md p-4 
-        rounded-b-2xl md:rounded 
+        bg-[#0759a6]/30 md:bg-[#0759a6] backdrop-blur-md p-4 
+        rounded-b-2xl md:rounded-3xl 
         justify-center md:justify-start  
         ${active ? "opacity-100" : "opacity-0 md:opacity-100"}`}>
                 <li>
-                    <a href="#" className="sm:text-lg text-base font-bold text-white ">Home</a>
+                    <a href="#" className="sm:text-lg text-base font-bold text-black ">Home</a>
                 </li>
                 <li>
-                    <a href="#tentang" className="sm:text-lg text-base font-bold text-white">About</a>
+                    <a href="#tentang" className="sm:text-lg text-base font-bold text-black">About</a>
                 </li>
                 <li>
-                    <a href="#proyek" className="sm:text-lg text-base font-bold text-white">Project</a>
+                    <a href="#proyek" className="sm:text-lg text-base font-bold text-black">Project</a>
                 </li>
                 <li>
-                    <a href="#skills" className="sm:text-lg text-base font-bold text-white">Skills</a>
+                    <a href="#skills" className="sm:text-lg text-base font-bold text-black">Skills</a>
                 </li>
                 <li>
-                    <a href="#kontak" className="sm:text-lg text-base font-bold text-white">Contact</a>
+                    <a href="#kontak" className="sm:text-lg text-base font-bold text-black">Contact</a>
                 </li>
             </ul>
     </div>

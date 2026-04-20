@@ -17,7 +17,7 @@ const ProjectCard = ({ proyek }) => {
 
     return (
         <div
-            className="p-4 bg-white/20 rounded-md"
+            className="p-4 bg-[#01498c] rounded-md"
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay={proyek.dad}
@@ -41,25 +41,27 @@ const ProjectCard = ({ proyek }) => {
                 </button>
             </div>
 
-            <h1 className="text-xl text-white font-bold mt-4">
+            <h1 className="text-xl text-black font-bold mt-4">
                 {proyek.nama}
             </h1>
             <div>
-                <p className="text-base/loose text-white mb-4">
-                    {proyek.desk}
-                </p>
-                <span className="inline-block mb-3 text-xs text-white bg-white/10 px-3 py-1 rounded-full capitalize">
+                <ul className="list-disc pl-5 space-y-2 text-white mb-4">
+                    {proyek.desk.map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+                <span className="inline-block mb-3 text-xs text-white bg-white/20 px-3 py-1 rounded-full capitalize">
                     {proyek.category}
                 </span>
 
                 <div className="flex flex-wrap gap-2">
                     {proyek.tools.map((tool, index) => (
-                      <p
-                        className="py-1 px-3 border border-zinc-700 bg-[#0759a6] text-white rounded-md font-semibold"
-                        key={index}
-                      >
-                        {tool}
-                      </p>
+                        <p
+                            className="py-1 px-3 border border-zinc-700 bg-black text-white rounded-md font-semibold"
+                            key={index}
+                        >
+                            {tool}
+                        </p>
                     ))}
                 </div>
             </div>
