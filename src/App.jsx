@@ -420,7 +420,7 @@ function App() {
 
             {/* RIGHT - FORM */}
             <form
-              action="https://formsubmit.co/b.fahridzaO88@gmail.com"
+              action="https://formsubmit.co/senaputra756@gmail.com"
               method="POST"
               autoComplete="off"
               className="bg-[#0759a6]  p-8 rounded-2xl"
