@@ -433,7 +433,7 @@ function App() {
 
               {/* IMPORTANT SETTINGS */}
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:5173/" />
+              <input type="hidden" name="_next" value="https://github.com/bimafahridza088/Website-Portofolio-Bima-Fahridza-Antoni-Putra" />
 
               <h2 className="text-xl text-black font-semibold mb-4">Send Message</h2>
 
